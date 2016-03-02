@@ -1,4 +1,4 @@
 main = do
-    print "Adiniz nedir?"
+    print "Enter your name:"
     name <- getLine
-    print ("Merhaba " ++ name ++ "!")
+    print ("Hello " ++ name ++ "!")
